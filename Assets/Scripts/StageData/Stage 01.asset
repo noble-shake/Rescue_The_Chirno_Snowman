@@ -1,0 +1,489 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d564687f0f87744c82f7a1c617ddeae, type: 3}
+  m_Name: Stage 01
+  m_EditorClassIdentifier: 
+  LEVEL: 0
+  PushCondition: 1
+  SizeCondition: 1
+  isHigh: 1
+  MapPrefab: {fileID: 7726776325604580469, guid: 305458d5faf306a45ae3b6fcf5d31abb, type: 3}
+  Dialogs:
+  - Name: Narration
+    Description: One day, during the cold winter, Cirno the Ice Fairy was being more
+      arrogant than usual.
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 0
+    flip3: 0
+    Standing3: {fileID: 0}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 0
+    flip5: 0
+    Standing5: {fileID: 0}
+  - Name: Cirno
+    Description: Behold! My ice power! I am truly the strongest, especially in winter!
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 7d9fa522dd3a98a45947abe938f03c20, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 0
+    flip5: 0
+    Standing5: {fileID: 0}
+  - Name: Daiyousei
+    Description: I don't know, Cirno. You're not really the 'winter' fairy.
+    WhoIsTalker: 5
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 7d9fa522dd3a98a45947abe938f03c20, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Cirno
+    Description: Bah! You're being too cautious, Dai-chan. It's obvious that the
+      ice fairy gets really strong during winter!
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Cirno
+    Description: You know what? I shall prove my strength by defeating the Yuki-onna,
+      Letty!
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: 7d9fa522dd3a98a45947abe938f03c20, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Daiyousei
+    Description: Oh, dear.......
+    WhoIsTalker: 4
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 0
+    flip3: 0
+    Standing3: {fileID: 0}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Narration
+    Description: So, as the two fairy find the snow youkai Letty Whitelock, Cirno
+      challanges her to a duel.
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 0
+    flip3: 0
+    Standing3: {fileID: 0}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 0
+    flip5: 0
+    Standing5: {fileID: 0}
+  - Name: Cirno
+    Description: Letty Whitelock, the Yuki-onna! I challange you to a duel. Let's
+      prove who is truly strongest in winter!
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 0
+    flip5: 0
+    Standing5: {fileID: 0}
+  - Name: Letty
+    Description: Foolish ice fairy. Despite people call me 'snow youkai', I'm practically
+      the youkai of winter.
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 0
+    flip5: 0
+    Standing5: {fileID: 0}
+  - Name: Letty
+    Description: Even the mikos will have hard time defeating me in this 'true winter'.
+      (Not true)
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 0
+    flip5: 0
+    Standing5: {fileID: 0}
+  - Name: Daiyousei
+    Description: See, Cirno? She gets much stronger than you during this season.
+      We should fall back.
+    WhoIsTalker: 4
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Cirno
+    Description: Nonsense! She's just Stage 1 Boss and I'm Stage 2 Boss! How strong
+      she could be even in winter?
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Letty
+    Description: Fine, I'll show you then. "Cold Snap!"
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Cirno
+    Description: Wow! What the-
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: 623a108ee0f31a44bb24d66a30d23883, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Letty
+    Description: You are now locked inside the unmelting 'snow'. Not so fond of frozen
+      fluffs, right?
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Daiyousei
+    Description: No! Letty-san, please let Cirno go. We're sorry!
+    WhoIsTalker: 4
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Letty
+    Description: Oh, I'll let Cirno go alright.
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 1
+    flip1: 1
+    Standing1: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 0
+    Standing3: {fileID: 21300000, guid: 58dd4bf02ddc2b24a9050ab7c72ec458, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Narration
+    Description: Letty gets close to Cirno, now a fairy stuck in a snowball. Then,
+      she gives the snowball a good kick.
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: 623a108ee0f31a44bb24d66a30d23883, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 1
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Cirno
+    Description: AAAAAAAAAAAAAAAAAAAAAAAAAGH!
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: 623a108ee0f31a44bb24d66a30d23883, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 1
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Daiyousei
+    Description: No! Cirno!
+    WhoIsTalker: 4
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: 623a108ee0f31a44bb24d66a30d23883, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 1
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Letty
+    Description: If you want to free your friend, bring her to the 'eternal flame'.
+      If you can roll her all the way to the goal.
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 1
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Letty
+    Description: Or you can just wait till the winter ends, about two months later.
+      It's not like she's gonna die since she's reincarnatable.
+    WhoIsTalker: 2
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: ee9f91b2e1e96224d9ab4450b39b5eb6, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 0
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Daiyousei
+    Description: Th-That was so mean of you! Cirno! Wait!
+    WhoIsTalker: 4
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 1
+    flip3: 1
+    Standing3: {fileID: 21300000, guid: 623a108ee0f31a44bb24d66a30d23883, type: 3}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 1
+    flip5: 1
+    Standing5: {fileID: 21300000, guid: 6b3bafc33d27d1a4087ced1be6b3bf48, type: 3}
+  - Name: Narration
+    Description: Therefore begins the adventure of Cirno, the snowball.
+    WhoIsTalker: 0
+    BackGround: {fileID: 21300000, guid: fb05324e38349cb4e8592db13ea22e30, type: 3}
+    isAppear1: 0
+    flip1: 0
+    Standing1: {fileID: 0}
+    isAppear2: 0
+    flip2: 0
+    Standing2: {fileID: 0}
+    isAppear3: 0
+    flip3: 0
+    Standing3: {fileID: 0}
+    isAppear4: 0
+    flip4: 0
+    Standing4: {fileID: 0}
+    isAppear5: 0
+    flip5: 0
+    Standing5: {fileID: 0}
